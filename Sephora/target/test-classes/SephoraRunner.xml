@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Sephora Automation" parallel="false">
+
+    <parameter name="url" value="https://www.sephora.com"/>
+
+    <test name = "Sephora Home">
+        <classes>
+            <class name="home.TestSearchOption"/>
+            <class name="home.TestShopIcon"/>
+            <class name="home.TestNewIcon"/>
+            <class name="home.TestBrandIcon"/>
+            <class name="home.TestGiftIcon"/>
+
+
+
+        </classes>
+    </test>
+
+</suite>

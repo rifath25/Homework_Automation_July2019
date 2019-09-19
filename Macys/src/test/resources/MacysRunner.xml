@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Amazon Automation" parallel="false">
+
+<parameter name="url" value="https://www.macys.com"/>
+
+<test name = "Amazon Home">
+    <classes>
+        <class name="home.TestDropDownMenu"/>
+        <class name="home.TestStoreIcon"/>
+        <class name="home.TestDealsIcon"/>
+        <class name="home.TestGiftsIcon"/>
+        <class name="home.TestWeddingRegistry"/>
+
+
+    </classes>
+</test>
+
+</suite>

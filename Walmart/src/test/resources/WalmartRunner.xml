@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Walmart Automation" parallel="false">
+
+    <parameter name="url" value="https://www.walmart.com"/>
+
+    <test name = "Walmart Home">
+        <classes>
+            <class name="home.TestSearchOption"/>
+            <class name="home.TestDropDownButton"/>
+            <class name="home.TestMenuIcon"/>
+            <class name="home.TestStartShoppingIcon"/>
+            <class name="home.TestCartIcon"/>
+
+
+
+        </classes>
+    </test>
+
+</suite>
